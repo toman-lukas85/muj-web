@@ -21,7 +21,8 @@ html {
     color: rgb(149, 155, 151);
     padding: 50px 40px;
     text-align: center;
-    font-family: Arial, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
     font-size: 27px;
     margin: 0;
     background: url(/muj-web/assets/background.jpg) top center no-repeat;
