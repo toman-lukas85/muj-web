@@ -88,8 +88,7 @@ font-size: 26px;
   .kontakt{
     background-color: rgb(217, 219, 219);
     text-align: center;
-    padding: 1px 0px 0px 15px;
-    width: 100%;
+    padding: 10px;
     font-family: Arial, sans-serif;
     font-size: 20px;
   }
