@@ -28,6 +28,7 @@ html {
     background-size: cover;
     border-bottom: 2px solid rgb(217, 220, 221);
   }
+
   
   nav {
     background-color: rgb(223, 228, 230);
@@ -62,6 +63,10 @@ html {
     font-size: 25px;
     padding-left: 50px;
   }
+.zajmyhead,.cestahead,.omnehead,.kontakthead{
+font-size: 26px;
+}
+   
 
   .zajmy{
     background-color: rgb(217, 219, 219);
@@ -80,11 +85,20 @@ html {
     padding-left: 50px;
   }
 
+  .kontakt{
+    background-color: rgb(217, 219, 219);
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    padding-left: 50px;
+  }
   footer{
     background-color: rgb(74, 76, 77);
     padding: 25px;
+    margin: center;
+    text-align: center;
     font-family: Arial, sans-serif;
     font-size: 25px;
-    overflow: auto;
-    text-align: center;
+    overflow: hidden;
   }
