@@ -1,0 +1,90 @@
+/* Moderní box model - nastavená šířka boxu je včetně paddingu a borderu */
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-align: center;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+  header {
+    background-color: black;
+    color: rgb(149, 155, 151);
+    padding: 140px 40px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 27px;
+    margin: 0;
+    background: url(/muj-web/assets/background.jpg) top center no-repeat;
+    background-size: cover;
+    border-bottom: 2px solid rgb(217, 220, 221);
+  }
+  
+  nav {
+    background-color: rgb(223, 228, 230);
+    padding: 18px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    
+  }
+
+  nav a {
+    color: rgb(142, 145, 144);
+    text-decoration: none;
+    padding: 15px;
+    font-size: 25px;
+    margin: 0;
+  }
+  nav a:hover {
+    background-color: rgb(230, 233, 233);
+    border-bottom: 2px solid rgb(217, 220, 221);
+  }
+  h2,p,li{
+    font-size: 20px;
+    color: rgb(170, 165, 165);
+  }
+
+   .omne{
+    background-color: rgb(223, 228, 230);
+    padding: 20px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    padding-left: 50px;
+  }
+
+  .zajmy{
+    background-color: rgb(217, 219, 219);
+    padding: 20px;
+    text-align: right;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    padding-right: 50px;
+  }
+  .cesta{
+    background-color: rgb(223, 228, 230);
+    padding: 20px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    padding-left: 50px;
+  }
+
+  footer{
+    background-color: rgb(74, 76, 77);
+    padding: 25px;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    overflow: auto;
+    text-align: center;
+  }
