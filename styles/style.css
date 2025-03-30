@@ -16,13 +16,11 @@ html {
   }
 
   header {
-    background-color: black;
     color: rgb(149, 155, 151);
-    padding: 50px 40px;
+    padding: 30px 30px;
     text-align: center;
     font-family: "Roboto", sans-serif;
-    font-size: 27px;
-    margin: 0;
+    font-size: 33px;
     background: url(/muj-web/assets/background.jpg) top center no-repeat;
     background-size: cover;
     border-bottom: 2px solid rgb(217, 220, 221);
