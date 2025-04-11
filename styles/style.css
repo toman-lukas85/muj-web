@@ -1,110 +1,125 @@
-/* Moderní box model - nastavená šířka boxu je včetně paddingu a borderu */
+:root {
+    --primary-color: #99E299FA;
+    --secondary-color: #C8FFFFF0;
+    --text-color: rgb(50, 50, 50);
+    --footer-bg: rgb(128, 219, 192);
+}
+
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
-  }
-  
-  body {
+}
+
+body {
     margin: 0;
     padding: 0;
-  }
-  
-  *,
-  *:before,
-  *:after {
-    box-sizing: inherit;
-  }
-
-  header {
-    color: rgb(149, 155, 151);
-    padding: 30px 30px;
-    text-align: center;
-    font-family: "Roboto", sans-serif;
-    font-size: 33px;
-    background: url(/muj-web/assets/background.jpg) top center no-repeat;
-    background-size: cover;
-    border-bottom: 2px solid rgb(217, 220, 221);
-  }
-
-  
-  nav {
-    background-color: rgb(217, 219, 219);
-    padding: 15px;
-    text-align: center;
     font-family: Arial, sans-serif;
-    font-size: 25px;
-    border-bottom: 1px solid rgb(217, 220, 221);
-    
-  }
+}
 
-  nav a {
-    color: rgb(142, 145, 144);
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+header {
+    background-image: linear-gradient(285deg, var(--secondary-color) 0%, var(--primary-color) 90%);
+    padding: 60px;
+    background-size: cover;
+}
+
+header h1 {
+    color: rgb(158, 207, 170);
+    font-size: 55px;
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    background-image: linear-gradient(285deg, var(--primary-color) 0%, var(--secondary-color) 80%);
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: var(--text-color);
     text-decoration: none;
     padding: 15px;
-    font-size: 25px;
-    margin: 0 10px;
-    
-  }
-  nav a:hover {
-    background-color: rgb(230, 233, 233);
-    border-bottom: 2px solid rgb(206, 238, 238);
-    border-radius: 2px;
-  }
-  h2,p,li{
-    font-size: 20px;
-    color: rgb(170, 165, 165);
-  }
+    font-size: 23px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+}
 
-   .omne{
-    background-color: rgb(223, 228, 230);
+nav a:hover {
+    background-color: var(--secondary-color);
+    border-bottom: 2px solid #a8f3edfa;
+    border-radius: 2px;
+}
+
+h2, p, li {
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+.omne {
+    background-size: 100% 100%;
+    background-image: linear-gradient(285deg, var(--secondary-color) 0%, var(--primary-color) 90%);
     padding: 20px;
     text-align: left;
-    font-family: Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
     padding-left: 50px;
-  }
-.zajmyhead,.cestahead,.omnehead,.kontakthead{
-font-size: 26px;
 }
-   
 
-  .zajmy{
-    background-color: rgb(217, 219, 219);
+.zajmyhead, .cestahead, .omnehead, .kontakthead {
+    font-size: 26px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.zajmy {
+    background-size: 100% 100%;
+    background-image: linear-gradient(285deg, var(--primary-color) 0%, var(--secondary-color) 80%);
     padding: 20px;
     text-align: right;
     font-family: Arial, sans-serif;
     font-size: 25px;
     padding-right: 50px;
-  }
-  .cesta{
-    background-color: rgb(223, 228, 230);
+}
+
+.cesta {
+    background-size: 100% 100%;
+    background-image: linear-gradient(285deg, var(--secondary-color) 0%, var(--primary-color) 90%);
     padding: 20px;
     text-align: left;
     font-family: Arial, sans-serif;
     font-size: 25px;
     padding-left: 50px;
-  }
+}
 
-  .kontakt{
-    background-color: rgb(217, 219, 219);
+.kontakt {
+    background-size: 100% 100%;
+    background-image: linear-gradient(285deg, var(--primary-color) 0%, var(--secondary-color) 80%);
     text-align: center;
     padding: 5px;
     font-family: Arial, sans-serif;
     font-size: 25px;
-  }
-  footer{
-    background-color: rgb(74, 76, 77);
+}
+
+footer {
+    background-color: var(--footer-bg);
     padding: 25px;
-    margin: center;
+    margin: 0 auto;
     text-align: center;
-    font-family: Arial, sans-serif;
     font-size: 25px;
     overflow: hidden;
-  }
+}
 
-
-  section{
-    padding: 50px 15%;
+section {
+    padding: 30px 10%;
     overflow: auto;
     display: block;
-  }
+}
+
